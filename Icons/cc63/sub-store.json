@@ -1,0 +1,54 @@
+{
+    "name": "Sub-Store",
+    "description": "适用于Sub-Store的机场图标库",
+    "icons": [
+        {
+            "name": "CTC",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/CTC.png"
+        },
+        {
+            "name": "CTC_Classic",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/CTC_Classic.png"
+        },
+        {
+            "name": "Flower",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Flower.png"
+        },
+        {
+            "name": "Imm",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Imm.png"
+        },
+        {
+            "name": "Imm_Classic",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Imm_Classic.png"
+        },
+        {
+            "name": "Kuromis",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Kuromis.png"
+        },
+        {
+            "name": "Kuromis_Classic",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Kuromis_Classic.png"
+        },
+        {
+            "name": "MESL",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/MESL.png"
+        },
+        {
+            "name": "MESL_Classic",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/MESL_Classic.png"
+        },
+        {
+            "name": "Nexitally",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Nexitally.png"
+        },
+        {
+            "name": "Nexitally_Classic",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/Nexitally_Classic.png"
+        },
+        {
+            "name": "YTOO",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/Toolkit/main/Icons/cc63/sub-store/YTOO.png"
+        }
+    ]
+}
