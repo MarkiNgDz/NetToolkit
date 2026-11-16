@@ -1,0 +1,131 @@
+#APP configuration file for Clash
+#Update: 2026.10.21 15:16
+#Authors: Admin
+mixed-port: 10801
+allow-lan: true
+bind-address: "*"
+# projectclash cant use 
+# find-process-mode: true
+mode: rule
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+geo-auto-update: false
+geo-update-interval: 24
+log-level: debug
+ipv6: true
+external-controller: 0.0.0.0:9093
+# default dns settings
+# dns:
+#   cache-algorithm: arc
+#   enable: false
+#   prefer-h3: false
+#   listen: 0.0.0.0:53
+#   default-nameserver:
+#     - 114.114.114.114
+#     - 8.8.8.8
+#     - tls://1.12.12.12:853
+#     - tls://223.5.5.5:853
+#     - system
+#   enhanced-mode: fake-ip
+#   fake-ip-range: 198.18.0.1/16
+#   fake-ip-filter-mode: blacklist
+#   fake-ip-ttl: 1
+#   respect-rules: false
+#   nameserver:
+#     - 114.114.114.114
+#     - 8.8.8.8
+#     - tls://223.5.5.5:853
+#     - https://doh.pub/dns-query
+#     - https://dns.alidns.com/dns-query#h3=true
+#     - https://mozilla.cloudflare-dns.com/dns-query#DNS&h3=true
+#     - dhcp://en0
+#     - quic://dns.adguard.com:784
+#   nameserver-policy:
+#     "geosite:cn,private,apple":
+#       - https://doh.pub/dns-query
+#       - https://dns.alidns.com/dns-query
+#     "geosite:category-ads-all": rcode://success
+#     "www.baidu.com,+.google.cn": [223.5.5.5, https://dns.alidns.com/dns-query]
+# mesl dns settings
+dns:
+    enable: true
+    listen: '0.0.0.0:1053'
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
+    nameserver: ['https://zone.rlose.com:39933/api-query', 'https://radar.rlose.com/api-query']
+    fake-ip-filter: ['*.lan', '*.linksys.com', '*.linksyssmartwifi.com', swscan.apple.com, mesu.apple.com, swquery.apple.com, swdownload.apple.com, swcdn.apple.com, swdist.apple.com, '*.msftconnecttest.com', '*.msftncsi.com', 'xbox.*.microsoft.com', 'xbox.*.*.microsoft.com', +.xboxlive.com, 'time.*.com', 'time.*.gov', 'time.*.edu.cn', 'time.*.apple.com', 'time1.*.com', 'time2.*.com', 'time3.*.com', 'time4.*.com', 'time5.*.com', 'time6.*.com', 'time7.*.com', 'ntp.*.com', 'ntp.*.com', 'ntp1.*.com', 'ntp2.*.com', 'ntp3.*.com', 'ntp4.*.com', 'ntp5.*.com', 'ntp6.*.com', 'ntp7.*.com', '*.time.edu.cn', '*.ntp.org.cn', +.pool.ntp.org, time1.cloud.tencent.com, lens.l.google.com, +.music.163.com, +.126.net, musicapi.taihe.com, music.taihe.com, songsearch.kugou.com, trackercdn.kugou.com, '*.kuwo.cn', api-jooxtt.sanook.com, api.joox.com, joox.com, +.y.qq.com, +.music.tc.qq.com, aqqmusic.tc.qq.com, +.stream.qqmusic.qq.com, +.xiami.com, +.music.migu.cn, '+.stun.*.*', '+.stun.*.*.*', '+.stun.*.*.*.*', '+.stun.*.*.*.*.*', +.srv.nintendo.net, '*.n.n.srv.nintendo.net', +.stun.playstation.net, +.battlenet.com.cn, +.wotgame.cn, +.wggames.cn, +.wowsgame.cn, +.wargaming.net, '*.square-enix.com', '*.finalfantasyxiv.com', '*.ffxiv.com', '*.ff14.sdo.com', ff.dorado.sdo.com, localhost.ptlogin2.qq.com, localhost.sec.qq.com, proxy.golang.org, +.qq.com, +.baidu.com, +.163.com, +.126.net, +.taobao.com, +.jd.com, +.tmall.com, '*.mcdn.bilivideo.cn', +.nvidia.com, +.nvidia.cn, +.nvgs.nvidia.com, +.nvgs.nvidia.cn, shark007.net]
+
+proxies:
+  - name: US
+    type: anytls
+    server: 
+    port: 
+    password: ""
+    udp: true
+    sni: "www.bing.com"
+    skip-cert-verify: true
+
+proxy-groups:
+  - { name: Proxy, type: select, use: [MESL], proxies: [Fallback, Auto, US] }
+  - { name: Apple, type: select, use: [MESL], proxies: [DIRECT, Proxy, Fallback, Auto] }
+  - { name: AI, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Google, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: BiliBili, type: select, use: [MESL], proxies: [DIRECT, Proxy, Fallback, Auto] }
+  - { name: TikTok, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto, DIRECT] }
+  - { name: Steam, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto, DIRECT] }
+  - { name: Spotify, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto, DIRECT] }
+  - { name: Facebook, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Discord, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Telegram, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Instagram, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Twitter, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Twitch, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto] }
+  - { name: Final, type: select, use: [MESL], proxies: [Proxy, Fallback, Auto, DIRECT] }
+  - { name: Auto, type: url-test, use: [MESL], url: "https://cp.cloudflare.com/generate_204", interval: 300 }
+  - { name: Fallback, type: fallback, use: [MESL], url: "https://cp.cloudflare.com/generate_204", interval: 300 }
+
+proxy-providers:
+  MESL: { type: http, url: "url", interval: 3600, path: ./MESL.yaml, proxy: DIRECT, health-check: { enable: true, interval: 600, url: "https://cp.cloudflare.com/generate_204" } }
+
+rule-providers:
+  Apple: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical.yaml", proxy: Proxy }
+  OpenAI: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml", proxy: Proxy }
+  Claude: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.yaml", proxy: Proxy }
+  Gemini: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml", proxy: Proxy }  
+  Google: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml", proxy: Proxy }
+  Youtube: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml", proxy: Proxy }
+  YoutubeMusic: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml", proxy: Proxy }
+  BiliBili: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml", proxy: Proxy }
+  TikTok: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.yaml", proxy: Proxy }
+  Steam: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml", proxy: Proxy }
+  Spotify: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml", proxy: Proxy }
+  Facebook: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook/Facebook.yaml", proxy: Proxy }
+  Discord: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.yaml", proxy: Proxy }
+  Telegram: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml", proxy: Proxy }
+  Instagram: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram/Instagram.yaml", proxy: Proxy }
+  Twitter: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter/Twitter.yaml", proxy: Proxy }
+  Twitch: { behavior: classical, interval: 259200, type: http, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch/Twitch.yaml", proxy: Proxy }
+
+rules:
+  - RULE-SET,Apple,Apple
+  - RULE-SET,OpenAI,AI
+  - RULE-SET,Claude,AI
+  - RULE-SET,Gemini,AI
+  - RULE-SET,Google,Google
+  - RULE-SET,Youtube,Google
+  - RULE-SET,YoutubeMusic,Google
+  - RULE-SET,BiliBili,BiliBili
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,Steam,Steam
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Facebook,Facebook
+  - RULE-SET,Discord,Discord
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Instagram,Instagram
+  - RULE-SET,Twitter,Twitter
+  - RULE-SET,Twitch,Twitch
+  - MATCH,Final
