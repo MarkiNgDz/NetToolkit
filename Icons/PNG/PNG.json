@@ -9,6 +9,98 @@
         {
             "name": "pixiv.png",
             "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/pixiv.png"
+        },
+        {
+            "name": "apple.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple.png"
+        },
+        {
+            "name": "tiktok.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/tiktok.png"
+        },
+        {
+            "name": "patreon.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/patreon.png"
+        },
+        {
+            "name": "bilibili.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/bilibili.png"
+        },
+        {
+            "name": "discord.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/discord.png"
+        },
+        {
+            "name": "eu.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/eu.png"
+        },
+        {
+            "name": "github.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/github.png"
+        },
+        {
+            "name": "google.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/google.png"
+        },
+        {
+            "name": "hk.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/hk.png"
+        },
+        {
+            "name": "jp.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/jp.png"
+        },
+        {
+            "name": "kr.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/kr.png"
+        },
+        {
+            "name": "meta.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/meta.png"
+        },
+        {
+            "name": "nintendo.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/nintendo.png"
+        },
+        {
+            "name": "openai.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/openai.png"
+        },
+        {
+            "name": "playstation.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/playstation.png"
+        },
+        {
+            "name": "sg.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/sg.png"
+        },
+        {
+            "name": "spotify.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/spotify.png"
+        },
+        {
+            "name": "steam.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/steam.png"
+        },
+        {
+            "name": "telegram.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/telegram.png"
+        },
+        {
+            "name": "tw.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/tw.png"
+        },
+        {
+            "name": "twitch.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/twitch.png"
+        },
+        {
+            "name": "us.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/us.png"
+        },
+        {
+            "name": "x.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/x.png"
         }
     ]
 }
