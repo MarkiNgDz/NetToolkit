@@ -1,0 +1,13 @@
+# NAME: ehentai
+# AUTHOR: Admin
+# REPO: https://github.com/MarkiNgDz/NetToolkit
+# UPDATED: 2026-11-18
+# HOST-SUFFIX: 7
+# TOTAL: 7
+host-suffix, e-hentai.org, proxy
+host-suffix, exhentai.org, proxy
+host-suffix, hentaiverse.org, proxy
+host-suffix, ehgt.org, proxy
+host-suffix, ehtracker.org, proxy
+host-suffix, ehwiki.org, proxy
+host-suffix, hentaiathome.net, proxy
