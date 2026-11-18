@@ -15,6 +15,22 @@
             "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple.png"
         },
         {
+            "name": "apple-dark.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple-dark.png"
+        },
+        {
+            "name": "apple-light.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple-light.png"
+        },
+        {
+            "name": "apple-mono-lobe.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple-mono-lobe.png"
+        },
+        {
+            "name": "apple-mono.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/apple-mono.png"
+        },
+        {
             "name": "tiktok.png",
             "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/tiktok.png"
         },
