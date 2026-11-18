@@ -1,0 +1,38 @@
+# NAME: GitHub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-12 02:06:19
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 30
+# TOTAL: 31
+HOST-SUFFIX,atom.io,github
+HOST-SUFFIX,dependabot.com,github
+HOST-SUFFIX,ghcr.io,github
+HOST-SUFFIX,git.io,github
+HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,github
+HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,github
+HOST-SUFFIX,github-cloud.s3.amazonaws.com,github
+HOST-SUFFIX,github.blog,github
+HOST-SUFFIX,github.com,github
+HOST-SUFFIX,github.community,github
+HOST-SUFFIX,github.dev,github
+HOST-SUFFIX,github.io,github
+HOST-SUFFIX,githubapp.com,github
+HOST-SUFFIX,githubassets.com,github
+HOST-SUFFIX,githubcopilot.com,github
+HOST-SUFFIX,githubhackathon.com,github
+HOST-SUFFIX,githubnext.com,github
+HOST-SUFFIX,githubpreview.dev,github
+HOST-SUFFIX,githubstatus.com,github
+HOST-SUFFIX,githubuniverse.com,github
+HOST-SUFFIX,githubusercontent.com,github
+HOST-SUFFIX,myoctocat.com,github
+HOST-SUFFIX,npm.community,github
+HOST-SUFFIX,npmjs.com,github
+HOST-SUFFIX,npmjs.org,github
+HOST-SUFFIX,opensource.guide,github
+HOST-SUFFIX,rawgit.com,github
+HOST-SUFFIX,rawgithub.com,github
+HOST-SUFFIX,repo.new,github
+HOST-SUFFIX,thegithubshop.com,github
+HOST-KEYWORD,github,github

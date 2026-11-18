@@ -1,0 +1,86 @@
+# NAME: Steam
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-10-24 04:55:18
+# HOST: 8
+# HOST-KEYWORD: 3
+# HOST-SUFFIX: 54
+# IP-CIDR: 12
+# TOTAL: 77
+HOST,steambroadcast.akamaized.net,steam
+HOST,steamcdn-a.akamaihd.net,steam
+HOST,steamcommunity-a.akamaihd.net,steam
+HOST,steammobile.akamaized.net,steam
+HOST,steampipe.akamaized.net,steam
+HOST,steamstore-a.akamaihd.net,steam
+HOST,steamusercontent-a.akamaihd.net,steam
+HOST,steamuserimages-a.akamaihd.net,steam
+HOST-SUFFIX,cdn-ali.content.steamchina.com,steam
+HOST-SUFFIX,cdn-qc.content.steamchina.com,steam
+HOST-SUFFIX,cdn-ws.content.steamchina.com,steam
+HOST-SUFFIX,csgo.wmsj.cn,steam
+HOST-SUFFIX,dl.steam.clngaa.com,steam
+HOST-SUFFIX,dl.steam.ksyna.com,steam
+HOST-SUFFIX,dota2.com,steam
+HOST-SUFFIX,dota2.wmsj.cn,steam
+HOST-SUFFIX,edge.steam-dns.top.comcast.net,steam
+HOST-SUFFIX,f3b7q2p3.ssl.hwcdn.net,steam
+HOST-SUFFIX,fanatical.com,steam
+HOST-SUFFIX,humblebundle.com,steam
+HOST-SUFFIX,playartifact.com,steam
+HOST-SUFFIX,s.team,steam
+HOST-SUFFIX,st.dl.bscstorage.net,steam
+HOST-SUFFIX,st.dl.eccdnx.com,steam
+HOST-SUFFIX,st.dl.pinyuncloud.com,steam
+HOST-SUFFIX,steam-api.com,steam
+HOST-SUFFIX,steam-chat.com,steam
+HOST-SUFFIX,steam.apac.qtlglb.com,steam
+HOST-SUFFIX,steam.cdn.on.net,steam
+HOST-SUFFIX,steam.cdn.orcon.net.nz,steam
+HOST-SUFFIX,steam.cdn.slingshot.co.nz,steam
+HOST-SUFFIX,steam.cdn.webra.ru,steam
+HOST-SUFFIX,steam.eca.qtlglb.com,steam
+HOST-SUFFIX,steam.naeu.qtlglb.com,steam
+HOST-SUFFIX,steam.ru.qtlglb.com,steam
+HOST-SUFFIX,steam.tv,steam
+HOST-SUFFIX,steambroadcast.akamaized.net,steam
+HOST-SUFFIX,steamcdn-a.akamaihd.net,steam
+HOST-SUFFIX,steamcommunity-a.akamaihd.net,steam
+HOST-SUFFIX,steamcommunity.com,steam
+HOST-SUFFIX,steamconnecttest.com,steam
+HOST-SUFFIX,steamcontent.tnkjmec.com,steam
+HOST-SUFFIX,steamdeck.com,steam
+HOST-SUFFIX,steamgames.com,steam
+HOST-SUFFIX,steammobile.akamaized.net,steam
+HOST-SUFFIX,steampipe-kr.akamaized.net,steam
+HOST-SUFFIX,steampipe-partner.akamaized.net,steam
+HOST-SUFFIX,steampipe.akamaized.net,steam
+HOST-SUFFIX,steampowered.com,steam
+HOST-SUFFIX,steampowered.com.8686c.com,steam
+HOST-SUFFIX,steamstat.us,steam
+HOST-SUFFIX,steamstatic.com,steam
+HOST-SUFFIX,steamstatic.com.8686c.com,steam
+HOST-SUFFIX,steamstore-a.akamaihd.net,steam
+HOST-SUFFIX,steamunlocked.net,steam
+HOST-SUFFIX,steamusercontent-a.akamaihd.net,steam
+HOST-SUFFIX,steamuserimages-a.akamaihd.net,steam
+HOST-SUFFIX,steamvideo-a.akamaihd.net,steam
+HOST-SUFFIX,underlords.com,steam
+HOST-SUFFIX,valve.net,steam
+HOST-SUFFIX,valvesoftware.com,steam
+HOST-SUFFIX,wmsjsteam.com,steam
+HOST-KEYWORD,steambroadcast,steam
+HOST-KEYWORD,steamstore,steam
+HOST-KEYWORD,steamuserimages,steam
+IP-CIDR,103.10.124.0/23,steam
+IP-CIDR,103.28.54.0/24,steam
+IP-CIDR,146.66.152.0/24,steam
+IP-CIDR,146.66.155.0/24,steam
+IP-CIDR,155.133.224.0/19,steam
+IP-CIDR,162.254.192.0/21,steam
+IP-CIDR,185.25.180.0/22,steam
+IP-CIDR,192.69.96.0/22,steam
+IP-CIDR,205.196.6.0/24,steam
+IP-CIDR,208.64.200.0/22,steam
+IP-CIDR,208.78.164.0/22,steam
+IP-CIDR,45.121.184.0/24,steam
