@@ -3,10 +3,6 @@
     "description": "grxlab collection PNG icons.",
     "icons": [
         {
-            "name": "2k.png",
-            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/2k.png"
-        },
-        {
             "name": "pixiv.png",
             "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/pixiv.png"
         },
@@ -37,6 +33,10 @@
         {
             "name": "patreon.png",
             "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/patreon.png"
+        },
+        {
+            "name": "patreon-badge.png",
+            "url": "https://raw.githubusercontent.com/MarkiNgDz/NetToolkit/main/Icons/PNG/patreon-badge.png"
         },
         {
             "name": "bilibili.png",
